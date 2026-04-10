@@ -13,10 +13,10 @@ Work is capped at ~5 hours per week.
 ## Available Skills
 | Skill | Description |
 |-------|-------------|
-| `/analyze-results` | Parse a Bluebook PDF score report and summarize performance |
-| `/explain-question` | Walk through a missed question (from screenshot or description) step-by-step |
-| `/meeting-notes` | Update the meeting notes doc with what was covered and next action items |
-| `/suggest-practice` | Recommend specific Khan Academy exercises based on weak areas |
+| `/analyzing-results` | Parse a Bluebook PDF score report and summarize performance |
+| `/explaining-questions` | Walk through a missed question (from screenshot or description) step-by-step |
+| `/writing-meeting-notes` | Update the meeting notes doc with what was covered and next action items |
+| `/suggesting-practice` | Recommend specific Khan Academy exercises based on weak areas |
 
 ## SAT Structure
 **Reading and Writing (200–800)**

@@ -20,15 +20,15 @@ Meeting Notes stored under
 
 **After taking a practice test**
 1. Export the score report PDF from Bluebook and save it under `assets/<test name>/`
-2. Run `/analyze-results` — Claude will summarize scores, compare to prior tests, and update `assets/student.md`
+2. Run `/analyzing-results` — Claude will summarize scores, compare to prior tests, and update `assets/student.md`
 
 **Reviewing a missed question**
 1. Screenshot the question from Bluebook and save it under the same test folder, or paste the question text
-2. Run `/explain-question` — Claude will walk through the correct approach step by step and name the pattern to watch for
+2. Run `/explaining-questions` — Claude will walk through the correct approach step by step and name the pattern to watch for
 
 **After a tutoring session**
-1. Run `/meeting-notes` — Claude will ask what was covered and produce a formatted notes entry
+1. Run `/writing-meeting-notes` — Claude will ask what was covered and produce a formatted notes entry
 2. Confirm to append it to `assets/SAT Prep Meeting.docx`
 
 **Planning the week's practice**
-1. Run `/suggest-practice` — Claude reads current weak areas from `assets/student.md` and outputs a weekly Khan Academy plan within the 5 hr/week cap
+1. Run `/suggesting-practice` — Claude reads current weak areas from `assets/student.md` and outputs a weekly Khan Academy plan within the 5 hr/week cap

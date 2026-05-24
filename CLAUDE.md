@@ -17,6 +17,9 @@ Work is capped at ~5 hours per week.
 | `/explaining-questions` | Walk through a missed question (from screenshot or description) step-by-step |
 | `/writing-meeting-notes` | Update the meeting notes doc with what was covered and next action items |
 | `/suggesting-practice` | Recommend specific Khan Academy exercises based on weak areas |
+| `/reviewing-summaries` | Score and give feedback on a student's article summary (ties to SAT R&W skills) |
+| `/generating-questions` | Generate SAT-style R&W questions from any article URL or passage |
+| `/words-in-context` | Drill SAT vocabulary-in-context questions using an article or built-in set |
 
 ## SAT Structure
 **Reading and Writing (200–800)**

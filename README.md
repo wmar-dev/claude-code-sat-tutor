@@ -21,31 +21,35 @@ Article summaries (student-written, with source URLs) stored in
 
 ## How to Use in a Session
 
-Skills are invoked by telling Claude what to do — they are not slash commands you type yourself.
+Each skill can be run directly as a slash command, or triggered automatically — just tell Claude what you want and it picks the right skill based on context.
 
 **After taking a practice test**
 1. Export the score report PDF from Bluebook and save it under `assets/<test name>/`
-2. Tell Claude: "analyze my results" — Claude will summarize scores, compare to prior tests, and update `assets/student.md`
+2. Run `/analyzing-results` or tell Claude: "analyze my results" — Claude will summarize scores, compare to prior tests, and update `assets/student.md`
 
 **Reviewing a missed question**
 1. Screenshot the question from Bluebook and save it under the same test folder, or paste the question text
-2. Tell Claude: "explain this question" — Claude will walk through the correct approach step by step and name the pattern to watch for
+2. Run `/explaining-questions` or tell Claude: "explain this question" — Claude will walk through the correct approach step by step and name the pattern to watch for
 
 **After a tutoring session**
-1. Tell Claude: "write meeting notes" — Claude will ask what was covered and produce a formatted notes entry
+1. Run `/writing-meeting-notes` or tell Claude: "write meeting notes" — Claude will ask what was covered and produce a formatted notes entry
 2. Confirm to append it to `assets/SAT Prep Meeting.docx`
 
+**Checking overall progress**
+1. After a few practice tests have been logged in `assets/student.md`
+2. Run `/tracking-progress` or tell Claude: "track my progress" — Claude shows score trajectory over time, flags domains that stay weak test after test, and notes which weak areas have improved
+
 **Planning the week's practice**
-1. Tell Claude: "suggest practice" — Claude reads current weak areas from `assets/student.md` and outputs a weekly Khan Academy plan within the 5 hr/week cap
+1. Run `/suggesting-practice` or tell Claude: "suggest practice" — Claude reads current weak areas from `assets/student.md` and outputs a weekly Khan Academy plan within the 5 hr/week cap
 
 **Reviewing an article summary**
 1. Paste the article URL and the student's written summary
-2. Tell Claude: "review this summary" — Claude scores it on main idea, evidence, author's purpose, and conciseness, and maps each dimension to the SAT question type it trains
+2. Run `/reviewing-summaries` or tell Claude: "review this summary" — Claude scores it on main idea, evidence, author's purpose, and conciseness, and maps each dimension to the SAT question type it trains
 
 **Generating practice questions from an article**
 1. Paste an article URL or passage text
-2. Tell Claude: "generate questions from this article" — Claude produces 4–6 SAT-style Reading and Writing questions with four answer choices, then explains every wrong answer using process of elimination
+2. Run `/generating-questions` or tell Claude: "generate questions from this article" — Claude produces 4–6 SAT-style Reading and Writing questions with four answer choices, then explains every wrong answer using process of elimination
 
 **Drilling vocabulary in context**
 1. Paste an article URL, a passage, or just say "random"
-2. Tell Claude: "drill words in context" — Claude presents SAT-style vocabulary questions and teaches the substitution strategy for eliminating wrong choices
+2. Run `/words-in-context` or tell Claude: "drill words in context" — Claude presents SAT-style vocabulary questions and teaches the substitution strategy for eliminating wrong choices

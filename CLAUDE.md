@@ -14,6 +14,7 @@ Work is capped at ~5 hours per week.
 | Skill | Description |
 |-------|-------------|
 | `/analyzing-results` | Parse a Bluebook PDF score report and summarize performance |
+| `/tracking-progress` | Review score history and weak-area trends across all tests |
 | `/explaining-questions` | Walk through a missed question (from screenshot or description) step-by-step |
 | `/writing-meeting-notes` | Update the meeting notes doc with what was covered and next action items |
 | `/suggesting-practice` | Recommend specific Khan Academy exercises based on weak areas |

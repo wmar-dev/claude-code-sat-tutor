@@ -1,6 +1,6 @@
 ---
 description: Reviews score history and weak-area trends across all completed practice tests in assets/student.md — flags domains that stay weak test after test, tracks score trajectory, and checks whether past action items paid off. Use periodically (every few sessions) to step back from a single test and look at overall progress.
-allowed-tools: Read, Write
+allowed-tools: Read, Write, Bash
 ---
 
 # tracking-progress
@@ -34,7 +34,7 @@ These are the highest-priority targets — practice so far hasn't moved the need
 
 **4. Improved areas** — domains that were weak in an earlier test but are no longer flagged. Call these out as wins worth mentioning to the student.
 
-**5. Action item follow-through** — compare past Action Items (and recent meeting notes, if relevant) against the latest test results. Did the targeted practice show up as improvement in that domain, or is the same gap still there?
+**5. Action item follow-through** — run `python3 .claude/skills/tracking-progress/scripts/extract_meeting_notes.py` to refresh `assets/SAT Prep Meeting.md` from the Word doc (requires pandoc — `brew install pandoc` if missing), then read it. Entries are reverse-chronological (most recent first); focus on entries since the last test date plus the entry right after the previous test (to see what action items were set going in). Compare those past Action Items against the latest test results — did the targeted practice show up as improvement in that domain, or is the same gap still there?
 
 **6. Recommend focus** — name 1–2 domains to prioritize next with `/suggesting-practice`, favoring recurring weak domains over ones that only appeared once. Then update the **Trends** section in `assets/student.md`:
 

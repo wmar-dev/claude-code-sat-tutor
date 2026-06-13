@@ -15,6 +15,7 @@ Work is capped at ~5 hours per week.
 Everything under `assets/` that identifies or describes the student is private and must never be committed (enforced via `.gitignore`):
 - `assets/student.md` — score history and personal details
 - `assets/SAT Prep Meeting.docx` — meeting notes
+- `assets/SAT Prep Meeting.md` — generated markdown cache of meeting notes (from `extract_meeting_notes.py`)
 - `assets/<test name>/*.pdf` — score report PDFs
 - `assets/<test name>/*.png` — question screenshots
 - `assets/<test name>/*.md` — generated score summaries (from `/converting-score-reports`)

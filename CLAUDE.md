@@ -9,10 +9,12 @@ Work is capped at ~5 hours per week.
 - Meeting notes (Word doc): `assets/SAT Prep Meeting.docx`
 - Screenshots of missed questions: stored alongside PDFs in the test folder
 - Student score history and details: `assets/student.md` (keep private, do not commit)
+- SAT/PSAT vertical scale reference (for cross-test score comparisons): `assets/sat-psat-scale-reference.md`
 
 ## Available Skills
 | Skill | Description |
 |-------|-------------|
+| `/converting-score-reports` | Convert a score report PDF to a lightweight markdown summary (run once per PDF) |
 | `/analyzing-results` | Parse a Bluebook PDF score report and summarize performance |
 | `/tracking-progress` | Review score history and weak-area trends across all tests |
 | `/explaining-questions` | Walk through a missed question (from screenshot or description) step-by-step |

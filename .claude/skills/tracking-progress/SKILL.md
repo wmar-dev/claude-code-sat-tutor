@@ -25,7 +25,7 @@ Copy and track progress:
 | Test | Date | Total | R&W | Math |
 |------|------|-------|-----|------|
 
-Fill from the Score History table. Add a delta vs. the previous test for each score column (e.g., "+40").
+Fill from the Score History table. Add a delta vs. the previous test for each score column (e.g., "+40") — PSAT 8/9, PSAT 10/NMSQT, and SAT share the same vertical scale (see `assets/sat-psat-scale-reference.md`), so deltas are meaningful across test types too. **Ceiling effect:** if a score equals its test's max for that section, note that the true gain may be larger than the delta shows — the lower-ceiling test topped out.
 
 **3. Recurring weak domains** — compare the Weak Areas noted at each test in the history. List any domain/subdomain flagged as weak in 2 or more consecutive tests, e.g.:
 - "Craft and Structure — Words in Context: weak in Bluebook #3 and #4 (2 tests running)"

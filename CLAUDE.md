@@ -8,8 +8,18 @@ Work is capped at ~5 hours per week.
 - Practice test PDFs (Bluebook score reports): `assets/<test name>/`
 - Meeting notes (Word doc): `assets/SAT Prep Meeting.docx`
 - Screenshots of missed questions: stored alongside PDFs in the test folder
-- Student score history and details: `assets/student.md` (keep private, do not commit)
+- Student score history and details: `assets/student.md`
 - SAT/PSAT vertical scale reference (for cross-test score comparisons): `assets/sat-psat-scale-reference.md`
+
+## Privacy
+Everything under `assets/` that identifies or describes the student is private and must never be committed (enforced via `.gitignore`):
+- `assets/student.md` — score history and personal details
+- `assets/SAT Prep Meeting.docx` — meeting notes
+- `assets/<test name>/*.pdf` — score report PDFs
+- `assets/<test name>/*.png` — question screenshots
+- `assets/<test name>/*.md` — generated score summaries (from `/converting-score-reports`)
+
+Only generic reference material (e.g. `assets/sat-psat-scale-reference.md`) is tracked in git. When adding new asset types or test folders, update `.gitignore` to match this pattern.
 
 ## Available Skills
 | Skill | Description |

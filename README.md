@@ -19,13 +19,22 @@ Meeting Notes stored under
 Article summaries (student-written, with source URLs) stored in
 - `Article Reading Summaries.docx`
 
+## Setup
+
+Some skills rely on Python scripts (e.g. converting Word docs to markdown) managed with [uv](https://docs.astral.sh/uv/).
+
+- `make install` — install Python dependencies with uv
+- `make install-system` — install system dependencies (pandoc, via Homebrew)
+- `make clean` — remove the virtual environment and cached files
+
 ## How to Use in a Session
 
 Each skill can be run directly as a slash command, or triggered automatically — just tell Claude what you want and it picks the right skill based on context.
 
 **After taking a practice test**
 1. Export the score report PDF from Bluebook and save it under `assets/<test name>/`
-2. Run `/analyzing-results` or tell Claude: "analyze my results" — Claude will summarize scores, compare to prior tests, and update `assets/student.md`
+2. Run `/converting-score-reports` or tell Claude: "convert this score report" — Claude turns the PDF into a lightweight markdown summary saved alongside it (run once per new PDF)
+3. Run `/analyzing-results` or tell Claude: "analyze my results" — Claude will summarize scores, compare to prior tests, and update `assets/student.md`
 
 **Reviewing a missed question**
 1. Screenshot the question from Bluebook and save it under the same test folder, or paste the question text
